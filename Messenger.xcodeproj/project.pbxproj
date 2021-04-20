@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		53425C54262E57B10031CC11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C53262E57B10031CC11 /* AppDelegate.swift */; };
 		53425C56262E57B10031CC11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C55262E57B10031CC11 /* SceneDelegate.swift */; };
-		53425C58262E57B10031CC11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C57262E57B10031CC11 /* ViewController.swift */; };
+		53425C58262E57B10031CC11 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C57262E57B10031CC11 /* LoginViewController.swift */; };
 		53425C5B262E57B10031CC11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53425C59262E57B10031CC11 /* Main.storyboard */; };
 		53425C5D262E57B50031CC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53425C5C262E57B50031CC11 /* Assets.xcassets */; };
 		53425C60262E57B50031CC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53425C5E262E57B50031CC11 /* LaunchScreen.storyboard */; };
 		53425C6B262E57B60031CC11 /* MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C6A262E57B60031CC11 /* MessengerTests.swift */; };
 		53425C76262E57B60031CC11 /* MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C75262E57B60031CC11 /* MessengerUITests.swift */; };
+		53425C92262E5D910031CC11 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C91262E5D910031CC11 /* RegisterViewController.swift */; };
+		53425C97262E5E030031CC11 /* RestoreAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C96262E5E030031CC11 /* RestoreAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 		53425C50262E57B10031CC11 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53425C53262E57B10031CC11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53425C55262E57B10031CC11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53425C57262E57B10031CC11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53425C57262E57B10031CC11 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		53425C5A262E57B10031CC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53425C5C262E57B50031CC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53425C5F262E57B50031CC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		53425C71262E57B60031CC11 /* MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53425C75262E57B60031CC11 /* MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerUITests.swift; sourceTree = "<group>"; };
 		53425C77262E57B60031CC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53425C91262E5D910031CC11 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		53425C96262E5E030031CC11 /* RestoreAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,11 @@
 		53425C52262E57B10031CC11 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
-				53425C53262E57B10031CC11 /* AppDelegate.swift */,
-				53425C55262E57B10031CC11 /* SceneDelegate.swift */,
-				53425C57262E57B10031CC11 /* ViewController.swift */,
-				53425C59262E57B10031CC11 /* Main.storyboard */,
-				53425C5C262E57B50031CC11 /* Assets.xcassets */,
-				53425C5E262E57B50031CC11 /* LaunchScreen.storyboard */,
+				53425C86262E59B10031CC11 /* Controllers */,
+				53425C87262E59CF0031CC11 /* Models */,
+				53425C8D262E5A9A0031CC11 /* Resources */,
+				53425C8B262E5A0F0031CC11 /* Views */,
+				53425C8A262E5A010031CC11 /* ViewModels */,
 				53425C61262E57B50031CC11 /* Info.plist */,
 			);
 			path = Messenger;
@@ -126,6 +129,57 @@
 				53425C77262E57B60031CC11 /* Info.plist */,
 			);
 			path = MessengerUITests;
+			sourceTree = "<group>";
+		};
+		53425C86262E59B10031CC11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53425C57262E57B10031CC11 /* LoginViewController.swift */,
+				53425C91262E5D910031CC11 /* RegisterViewController.swift */,
+				53425C96262E5E030031CC11 /* RestoreAccountViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		53425C87262E59CF0031CC11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53425C8A262E5A010031CC11 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		53425C8B262E5A0F0031CC11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53425C8C262E5A2C0031CC11 /* Storyboards */,
+				53425C5C262E57B50031CC11 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53425C8C262E5A2C0031CC11 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				53425C59262E57B10031CC11 /* Main.storyboard */,
+				53425C5E262E57B50031CC11 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		53425C8D262E5A9A0031CC11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53425C53262E57B10031CC11 /* AppDelegate.swift */,
+				53425C55262E57B10031CC11 /* SceneDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53425C58262E57B10031CC11 /* ViewController.swift in Sources */,
+				53425C58262E57B10031CC11 /* LoginViewController.swift in Sources */,
 				53425C54262E57B10031CC11 /* AppDelegate.swift in Sources */,
 				53425C56262E57B10031CC11 /* SceneDelegate.swift in Sources */,
+				53425C97262E5E030031CC11 /* RestoreAccountViewController.swift in Sources */,
+				53425C92262E5D910031CC11 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +494,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Messenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.scalebot.Messenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,6 +513,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Messenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.scalebot.Messenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
