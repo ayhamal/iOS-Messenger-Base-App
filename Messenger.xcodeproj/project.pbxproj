@@ -17,6 +17,7 @@
 		53425C76262E57B60031CC11 /* MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C75262E57B60031CC11 /* MessengerUITests.swift */; };
 		53425C92262E5D910031CC11 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C91262E5D910031CC11 /* RegisterViewController.swift */; };
 		53425C97262E5E030031CC11 /* RestoreAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C96262E5E030031CC11 /* RestoreAccountViewController.swift */; };
+		53425C9C262E64200031CC11 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C9B262E64200031CC11 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		53425C77262E57B60031CC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53425C91262E5D910031CC11 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		53425C96262E5E030031CC11 /* RestoreAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreAccountViewController.swift; sourceTree = "<group>"; };
+		53425C9B262E64200031CC11 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				53425C57262E57B10031CC11 /* LoginViewController.swift */,
 				53425C91262E5D910031CC11 /* RegisterViewController.swift */,
 				53425C96262E5E030031CC11 /* RestoreAccountViewController.swift */,
+				53425C9B262E64200031CC11 /* MapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53425C58262E57B10031CC11 /* LoginViewController.swift in Sources */,
+				53425C9C262E64200031CC11 /* MapViewController.swift in Sources */,
 				53425C54262E57B10031CC11 /* AppDelegate.swift in Sources */,
 				53425C56262E57B10031CC11 /* SceneDelegate.swift in Sources */,
 				53425C97262E5E030031CC11 /* RestoreAccountViewController.swift in Sources */,
