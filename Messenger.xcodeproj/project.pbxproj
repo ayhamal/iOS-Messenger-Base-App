@@ -17,7 +17,11 @@
 		53425C76262E57B60031CC11 /* MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C75262E57B60031CC11 /* MessengerUITests.swift */; };
 		53425C92262E5D910031CC11 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C91262E5D910031CC11 /* RegisterViewController.swift */; };
 		53425C97262E5E030031CC11 /* RestoreAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C96262E5E030031CC11 /* RestoreAccountViewController.swift */; };
-		53425C9C262E64200031CC11 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C9B262E64200031CC11 /* MapViewController.swift */; };
+		53425C9C262E64200031CC11 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425C9B262E64200031CC11 /* PhotoViewerViewController.swift */; };
+		53425CAA262E6C430031CC11 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425CA9262E6C430031CC11 /* ConversationsViewController.swift */; };
+		53425CB5262E6CA00031CC11 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425CB4262E6CA00031CC11 /* VideoPlayerViewController.swift */; };
+		53425CBA262E6CBD0031CC11 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425CB9262E6CBD0031CC11 /* NewConversationViewController.swift */; };
+		53425CBF262E6CD60031CC11 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53425CBE262E6CD60031CC11 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +58,11 @@
 		53425C77262E57B60031CC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53425C91262E5D910031CC11 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		53425C96262E5E030031CC11 /* RestoreAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreAccountViewController.swift; sourceTree = "<group>"; };
-		53425C9B262E64200031CC11 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		53425C9B262E64200031CC11 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		53425CA9262E6C430031CC11 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		53425CB4262E6CA00031CC11 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		53425CB9262E6CBD0031CC11 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		53425CBE262E6CD60031CC11 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +147,11 @@
 				53425C57262E57B10031CC11 /* LoginViewController.swift */,
 				53425C91262E5D910031CC11 /* RegisterViewController.swift */,
 				53425C96262E5E030031CC11 /* RestoreAccountViewController.swift */,
-				53425C9B262E64200031CC11 /* MapViewController.swift */,
+				53425C9B262E64200031CC11 /* PhotoViewerViewController.swift */,
+				53425CA9262E6C430031CC11 /* ConversationsViewController.swift */,
+				53425CB4262E6CA00031CC11 /* VideoPlayerViewController.swift */,
+				53425CB9262E6CBD0031CC11 /* NewConversationViewController.swift */,
+				53425CBE262E6CD60031CC11 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -315,10 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53425CAA262E6C430031CC11 /* ConversationsViewController.swift in Sources */,
 				53425C58262E57B10031CC11 /* LoginViewController.swift in Sources */,
-				53425C9C262E64200031CC11 /* MapViewController.swift in Sources */,
+				53425CBF262E6CD60031CC11 /* ProfileViewController.swift in Sources */,
+				53425C9C262E64200031CC11 /* PhotoViewerViewController.swift in Sources */,
 				53425C54262E57B10031CC11 /* AppDelegate.swift in Sources */,
 				53425C56262E57B10031CC11 /* SceneDelegate.swift in Sources */,
+				53425CB5262E6CA00031CC11 /* VideoPlayerViewController.swift in Sources */,
+				53425CBA262E6CBD0031CC11 /* NewConversationViewController.swift in Sources */,
 				53425C97262E5E030031CC11 /* RestoreAccountViewController.swift in Sources */,
 				53425C92262E5D910031CC11 /* RegisterViewController.swift in Sources */,
 			);
